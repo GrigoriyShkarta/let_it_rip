@@ -38,9 +38,9 @@ export default function Hero() {
         <p className={styles.tagline}>Онлайн-курс з екстремального вокалу</p>
         <h1 className={styles.title}>LET IT RIP</h1>
         <p className={styles.subtitle}>
-          Продувні екстремальні техніки: 
+          Продувні екстремальні техніки: &nbsp;
           <br />
-          гроули, скріми та легка хрипотця у голосі
+          гроули, скріми та легка хрипотця у голосі &nbsp;
           <br />
           про яку мріє кожен вокаліст
         </p>

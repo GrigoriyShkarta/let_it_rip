@@ -1,5 +1,6 @@
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
+import SoundExamples from "./components/SoundExamples";
 import ForWhom from "./components/ForWhom";
 import WhatIncludes from "./components/WhatIncludes";
 import Transformation from "./components/Transformation";
@@ -16,6 +17,7 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
+        <SoundExamples />
         <ForWhom />
         <WhatIncludes />
         <Transformation />
