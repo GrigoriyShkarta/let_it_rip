@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "./Hero.module.css";
 import bannerImg from "@/assets/banner.jpg";
+import bannerMobileImg from "@/assets/banner-mobile.jpg";
 
 export default function Hero() {
   const scrollToPrice = () => {
@@ -18,7 +19,16 @@ export default function Hero() {
           fill
           priority
           quality={90}
-          className={styles.bgImage}
+          className={`${styles.bgImage} ${styles.desktopOnly}`}
+          sizes="100vw"
+        />
+        <Image
+          src={bannerMobileImg}
+          alt="LET IT RIP — курс з екстрим вокалу (мобільна версія)"
+          fill
+          priority
+          quality={90}
+          className={`${styles.bgImage} ${styles.mobileOnly}`}
           sizes="100vw"
         />
         <div className={styles.overlay} />
