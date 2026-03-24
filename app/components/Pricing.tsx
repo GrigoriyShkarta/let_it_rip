@@ -139,7 +139,9 @@ export default function Pricing() {
           <p className={styles.bookingHighlight}>
             Не готовий оплатити одразу? <br />
             <strong>Забронюй місце всього за 1000 грн</strong> та заморозь поточну вигідну ціну для себе!
+            <br />Залишок суми сплачується до 17 квітня.
           </p>
+          {/* <p className={styles.bookingHighlight}>Залишок суми сплачується до 17 квітня</p> */}
           <a
             href="https://t.me/yana_vocalcoach"
             target="_blank"

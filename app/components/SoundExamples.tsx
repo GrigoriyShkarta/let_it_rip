@@ -6,7 +6,7 @@ export default function SoundExamples() {
   return (
     <section className={`section ${styles.sounds}`} id="sounds">
       <div className="section-container">
-        <h2 className="section-title">Техніки які ми будемо вивчати</h2>
+        <h2 className="section-title">Техніки, які ми будемо вивчати</h2>
         <div className={styles.videoWrapper}>
           <div className={styles.playerContainer}>
             <iframe
